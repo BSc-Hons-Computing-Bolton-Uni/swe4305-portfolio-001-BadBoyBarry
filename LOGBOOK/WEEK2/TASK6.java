@@ -6,6 +6,8 @@ public class TASK6
 {
     public static void main(String[] args)
     {
+        // adds in a user choice to continue
+        // with the program or not
         boolean x = true;
         Scanner sc = new Scanner(System.in);
         do

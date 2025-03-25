@@ -4,6 +4,8 @@ public class TASK4
 {
     public static void main(String[] args)
     {
+        // prints out the 7 times tables
+        // until it reaches 7*12
         int num1 = 1;
         int num2 = 7;
         do

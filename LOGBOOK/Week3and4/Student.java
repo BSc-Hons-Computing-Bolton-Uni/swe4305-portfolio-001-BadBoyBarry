@@ -11,7 +11,7 @@ public class Student {
     private Course course;
     private int[] marks;
 
-    // getters and setter defonition.
+    // getters and setter definition.
     public int get_id ()
         {return this.id;}
 
@@ -30,12 +30,12 @@ public class Student {
     public void set_last_name (String new_last_name)
         {this.last_name = new_last_name;}
 
-    // allows the student to be enroled on to a course.
+    // allows the student to be enrolled on to a course.
     public void enrol(Course course)
         {this.course = course; }
 
-    // this function simpally prints all the class atributes to the console
-    // it printo the course values as well using the course.print_values.
+    // this function simply prints all the class attributes to the console
+    // it prints the course values as well using the course.print_values.
     public void print_values ()
     {
         System.out.println("id " + this.id);
@@ -53,9 +53,9 @@ public class Student {
 
     }
 
-        /* Allowing all the atributes to be passed through to the Student on creation.
-        * the course atribute is not needed to be passed however it can be if needed
-        * the first initaliser will catch it if it is not there and the second
+        /* Allowing all the attributes to be passed through to the Student on creation.
+        * the course attribute is not needed to be passed however it can be if needed
+        * the first initializer will catch it if it is not there and the second
         * one will catch it if it is there.*/
 
     public Student(int id, String first_name, String last_name)

@@ -6,6 +6,8 @@ public class TASK7
 {
     public static void main(String[] args)
     {
+        // user input for the percentage or marks out of 100
+        // and uses the if statement to see which condition is met
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the grade: ");

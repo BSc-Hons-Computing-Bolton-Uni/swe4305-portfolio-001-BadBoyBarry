@@ -27,7 +27,7 @@ public class Course {
     {
         this.course_name = course_name;
     }
-    //getting all the grades from Module.
+    //getting grades from Module.
     public String[] get_grades(int[] marks)
     {
         int count = 0;
@@ -40,8 +40,8 @@ public class Course {
         }
         return grades;
     }
-//      prints out all the atributes in Course.
-    //  this prossess uses the Module prosses print values to print the
+    //  prints out attributes in Course.
+    //  this process uses the Module process to print values to print the
     //  Module values.
     public void print_values()
     {
@@ -53,7 +53,7 @@ public class Course {
 
     }
 
-    // the constructer
+    // the constructor
     //uses temp as a placeholder value just to put the modules into module.
     Course(String course_code, String course_name)
     {

@@ -6,6 +6,7 @@ public class TASK4
 {
     public static void main(String[] args)
     {
+        // prints out the average between two numbers
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the first number:");
         int N1 = sc.nextInt();

@@ -4,6 +4,8 @@ public class TASK3
 {
     public static void main(String[] args)
     {
+        // prints out the numbers 0 - 9
+        // using a do while loop
         int x = 0;
         do
         {

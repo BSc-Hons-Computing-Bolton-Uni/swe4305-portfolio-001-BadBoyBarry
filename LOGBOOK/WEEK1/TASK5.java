@@ -6,6 +6,8 @@ public class TASK5
 {
     public static void main(String[] args)
     {
+        // takes two numbers and then puts them in the original order entered
+        // then reverses the order
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the first integer: ");
         int num1 = sc.nextInt();

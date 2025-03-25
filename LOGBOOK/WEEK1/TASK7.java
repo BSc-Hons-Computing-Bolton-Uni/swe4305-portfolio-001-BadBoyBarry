@@ -7,6 +7,8 @@ public class TASK7
 {
     public static void main(String[] args)
     {
+        // takes in your DOB and then calculates how many days old you are based on
+        // the local date imported from a package
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your date of birth (YYYY-MM-DD): ");
         String dobInput = sc.nextLine();

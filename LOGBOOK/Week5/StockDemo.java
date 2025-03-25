@@ -10,9 +10,9 @@ public class StockDemo {
 
     public void test_stock_demo()
     {
-        Product product_t1 = new Product(1 , "test1", 50);
-        Product product_t2 = new Product(2, "test2", 40);
-        Product product_t3 = new Product(3, "test3", 13);
+        Product product_t1 = new Product(0001 , "test_1", 55);
+        Product product_t2 = new Product(0002, "test_2", 42);
+        Product product_t3 = new Product(0003, "test_3", 63);
         StockList stock_list = new StockList();
 
         stock_list.add_product(product_t2);

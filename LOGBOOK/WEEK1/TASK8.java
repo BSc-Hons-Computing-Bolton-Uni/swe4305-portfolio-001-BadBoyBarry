@@ -6,6 +6,7 @@ public class TASK8
 {
     public static void main(String[] args)
     {
+        // converts feet to miles
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of feet: ");
         double feet = sc.nextDouble();

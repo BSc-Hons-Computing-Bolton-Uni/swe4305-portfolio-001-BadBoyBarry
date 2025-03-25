@@ -6,6 +6,9 @@ public class TASK2
 {
     public static void main(String[] args)
     {
+        //takes the user input of a grade and then uses a switch case
+        // operation to filter through the university grades
+        // and see which one is correct
         System.out.print("Enter the letter grade:");
         Scanner sc = new Scanner(System.in);
         String grade = sc.next();
